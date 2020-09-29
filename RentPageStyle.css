@@ -1,0 +1,59 @@
+
+
+
+body{
+  background: url(logInBackGround.jpg) no-repeat;
+}
+.profile-card {
+  box-shadow: 0 4px 8px 0 black;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+.mail{
+  color: white;
+  font-size: 18px;
+}
+
+.image{
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+}
+
+input{
+
+  color: white;
+  background : none;
+  width: 80%;
+  font-size: 15px;
+  border: 2px solid #b1e7bc;
+
+}
+
+input:hover{
+    border: 2px solid #816aaf;
+  color: #816aaf;
+}
+
+button {
+  color: white;
+  background : none;
+  width: 100%;
+  font-size: 18px;
+  border: 2px solid #b1e7bc;
+}
+
+
+
+button:hover, a:hover {
+    color: #816aaf;
+  border: 2px solid #816aaf;
+}
+
+
+p, h1, h2, label{
+  color: white;
+}
+

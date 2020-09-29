@@ -1,0 +1,64 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url(logInBackGround.jpg) no-repeat;
+  box-sizing: border-box;
+
+}
+
+#myVideo {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.login-box{
+  width: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+
+}
+.login-box h1{
+  font-family: Optima;
+  border-bottom: 5px solid white;
+}
+
+.textbox input{
+  height: 20px;
+  font-size: 14px;
+  background: none;
+  color: white;
+  border: 0.5px solid white;
+}
+
+.btn{
+  width: 100%;
+  background: none;
+  border: 2px solid white;
+  color: white;
+  padding: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  margin: 12px 0;
+}
+.btn:hover{
+  color: #816aaf;
+  border: 2px solid #816aaf;
+}
+.register-box p{
+
+  font-size : 12px;
+
+}
+
+a{
+  color: white;
+}

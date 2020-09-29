@@ -1,0 +1,51 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url(logInBackGround.jpg) no-repeat;
+  background-size: cover;
+}
+
+.edit-box{
+  width: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+}
+h1{
+  font-family: Optima;
+  border-bottom: 5px solid white;
+}
+.edit-box p{
+  font-family: Optima;
+  font-size: 15; 
+}
+.edit-box label{
+  font-family: Optima;
+  font-size: 15; 
+}
+.edit-box input{
+  font-family: Optima;
+  width: 50%
+  font-size: 15; 
+  color: white;
+  background: none;
+  border: 1px solid white;;
+}
+.btn{
+  width: 100%;
+  background: none;
+  border: 2px solid white;
+  color: white;
+  padding: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  margin: 12px 0;
+}
+.btn:hover{
+  color: #816aaf;
+  border: 2px solid #816aaf;
+}

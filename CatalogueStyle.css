@@ -1,0 +1,134 @@
+
+
+  *{
+ margin: 0px;
+ padding: 0px;
+}
+body{
+ font-family: arial;
+ background: url(logInBackGround.jpg) no-repeat;
+}
+.main{
+
+ margin: 2%;
+}
+
+.card{
+     width: 20%;
+     display: inline-block;
+     box-shadow: 2px 2px 20px; 
+     border-radius: 5px; 
+     margin: 2%;
+    }
+
+
+
+.image img{
+
+  width: 100%;
+  height: 200px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  
+
+ 
+ }
+
+ 
+
+.title{
+ 
+  text-align: center;
+  padding: 10px;
+  color: white;
+  
+ }
+
+
+
+.nextPage{
+  
+  float: right;
+
+}
+.nextPage:hover{
+  color: #816aaf;
+  
+}
+.previousPage{
+  float: left;
+
+}
+.previousPage:hover{
+  color: #816aaf;
+}
+
+.addBtn{
+
+  top:50%;
+}
+
+h1{
+  font-size: 20px;
+ }
+
+ a{
+
+      font-family: "Montserrat", sans-serif;
+      font-weight: 500;
+      font-size: 30px;
+      color: #3e7075;
+      text-decoration: none;
+
+ }
+
+ p{
+  color: white;
+ }
+
+  button {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      color: #edf0f1;
+      text-decoration: none;
+      padding: 9px 25px;
+      background-color: #3e7075;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: all 0.3s ease 0s;
+  }
+
+  button:hover {
+      background-color: #9bc6ca;
+  }
+
+.des input{
+
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+      padding: 9px 25px;
+      background-color: #3e7075;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: all 0.3s ease 0s;
+
+}
+.des input:hover {
+    background-color: #9bc6ca;
+}
+
+
+
+.des{
+  padding: 3px;
+  text-align: center;
+ 
+  padding-top: 10px;
+        border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
